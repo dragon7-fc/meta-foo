@@ -1,0 +1,15 @@
+description: >
+    An example interface originally described as part of the announcement
+    of new sd-bus interfaces at:
+        http://0pointer.net/blog/the-new-sd-bus-api-of-systemd.html
+methods:
+    - name: addoem
+      description: >
+        client use method call server's funciton by dbus and get right response.
+      parameters:
+        - name: test_string
+          type: string
+        - name: test_array 
+          type: array[byte]
+        - name: test_byte
+          type: byte

@@ -1,0 +1,25 @@
+description: >
+    An example interface originally described as part of the announcement
+    of new sd-bus interfaces at:
+        http://0pointer.net/blog/the-new-sd-bus-api-of-systemd.html
+signals:
+    - name: SigInt
+      description: >
+        client send singal by dbus and sever print out catch right signal msg.
+      properties:
+        - name: test_boolean
+          type: boolean
+        - name: test_int16 
+          type: int16
+        - name: test_uint16
+          type: uint16
+        - name: test_int32
+          type: int32
+        - name: test_uint32
+          type: uint32
+        - name: test_int64
+          type: int64
+        - name: test_uint64
+          type: uint64
+        - name: test_string
+          type: string
